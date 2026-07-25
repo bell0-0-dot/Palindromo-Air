@@ -1,15 +1,15 @@
-package recursividad1;
+package recursividad;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class Recursividad1 extends JFrame {
+public class Ventana extends JFrame {
     private PalindromoAir airSystem = new PalindromoAir();
     private JButton[] seatButtons = new JButton[30];
     private JTextField txtName = new JTextField(15);
     private int selectedSeatIndex = -1;
 
-    public Recursividad1() {
+    public Ventana() {
         setTitle("PalindromoAir - Control de Asientos");
         setSize(900, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -147,7 +147,7 @@ public class Recursividad1 extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new Recursividad1().setVisible(true);
+            new Ventana().setVisible(true);
         });
     }
 }
