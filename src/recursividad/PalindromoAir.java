@@ -7,6 +7,10 @@ public class PalindromoAir {
     
 Ticket []avion=new Ticket[30];
 
+    public Ticket[] getAvion() {
+        return avion;
+    }
+
 
 public int firstAvailable(int indice){
 
