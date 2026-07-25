@@ -1,1 +1,3 @@
-##Semana 1 Laboratorio, Por: Mario René Doubleday Ochoa, Bella Dayanara Serrano Vasquez y Leonardo Damian Romero Acosta##
+##Semana 1 Laboratorio, Por: Mario René Doubleday Ochoa 22611133, 
+Bella Dayanara Serrano Vasquez 22541173 
+Leonardo Damian Romero Acosta ##
