@@ -2,32 +2,54 @@
 package recursividad;
 
 public class Ticket {
-    private String nombre;
-    private double total_pagado;
+    private String Name;
+    private double FinalAmount;
+    private double OriginalAmount;
+    private boolean isPalindrome;
 
-    public Ticket(String nombre, double total_pagado) {
-        this.nombre = nombre;
-        this.total_pagado = total_pagado;
+    public Ticket(String Name, double FinalAmount, double OriginalAmount, boolean isPalindrome) {
+        this.Name = Name;
+        this.FinalAmount = FinalAmount;
+        this.OriginalAmount = OriginalAmount;
+        this.isPalindrome = isPalindrome;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return Name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
-    public double getTotal_pagado() {
-        return total_pagado;
+    public double getFinalAmount() {
+        return FinalAmount;
     }
 
-    public void setTotal_pagado(double total_pagado) {
-        this.total_pagado = total_pagado;
+    public void setFinalAmount(double FinalAmount) {
+        this.FinalAmount = FinalAmount;
     }
+
+    public double getOriginalAmount() {
+        return OriginalAmount;
+    }
+
+    public void setOriginalAmount(double OriginalAmount) {
+        this.OriginalAmount = OriginalAmount;
+    }
+
+    public boolean isIsPalindrome() {
+        return isPalindrome;
+    }
+
+    public void setIsPalindrome(boolean isPalindrome) {
+        this.isPalindrome = isPalindrome;
+    }
+
+    
     
     public void print(){
-        System.out.println("El nombre del pasajero es: "+getNombre());
-        System.out.println("El total pagado es de: "+getTotal_pagado());
+        System.out.println("El nombre del pasajero es: "+getName());
+        System.out.println("El total pagado es de: "+getFinalAmount());
     }
 }
